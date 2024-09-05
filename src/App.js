@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/predict" element={<Prediction />} />
-        <Route path="/digital-twin" element={<DigitalTwin />} /> {/* Ensure this is correct */}
+        <Route path="/digital-twin" element={<DigitalTwin />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </Router>
