@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.0.2",
     "@mui/material": "^6.0.2",
     "@react-three/drei": "^9.112.0",
     "@react-three/fiber": "^8.17.6",
@@ -19,6 +20,7 @@
     "react-scripts": "5.0.1",
     "recharts": "^2.12.7",
     "three": "^0.168.0",
+    "touch-cli": "^0.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
