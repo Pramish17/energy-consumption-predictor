@@ -12,7 +12,7 @@ const Prediction = () => {
     setError(null); // Reset error state before making the request
 
     try {
-      const response = await axios.post('http://localhost:5000/predict', {
+      const response = await axios.post('https://heruko-deploy-9963792d99a7.herokuapp.com/predict', {
         sub_metering_1: parseFloat(formData.sub_metering_1),
         sub_metering_2: parseFloat(formData.sub_metering_2),
         voltage: parseFloat(formData.voltage),
