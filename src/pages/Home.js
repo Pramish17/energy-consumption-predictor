@@ -5,20 +5,20 @@ const Home = () => {
   return (
     <Box
       sx={{
-        backgroundImage: 'url("/images/background.jpg")', // Make sure the image is in public/images
+        backgroundImage: 'url("/images/background.jpg")', 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: '100vh', // Full height of the viewport
-        width: '100vw', // Full width of the viewport
+        height: '100vh', 
+        width: '100vw', 
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        color: '#fff', // White text for contrast
+        color: '#fff',
         textAlign: 'center',
-        overflow: 'hidden', // Ensures no scrolling
+        overflow: 'hidden', 
         padding: '20px',
-        position: 'relative', // Keep the container in the viewable area
+        position: 'relative', 
       }}
     >
       <Container maxWidth="lg">

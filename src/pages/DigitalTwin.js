@@ -12,7 +12,7 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 
-const MAX_DATA_POINTS = 20;  // Limit the number of points to display on the graph
+const MAX_DATA_POINTS = 20;  // Limiting the number of points to display on the graph
 
 const DigitalTwin = () => {
   const [formData, setFormData] = useState({
@@ -239,7 +239,7 @@ const DigitalTwin = () => {
       <LineChart data={intensityData}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="time" />
-        {/* Try a fixed domain to make sure values fit within the graph */}
+        {/* Trying a fixed domain to make sure values fit within the graph */}
         <YAxis domain={[0, 20]} /> {/* Static Y-axis range between 0 and 20 */}
         <Tooltip />
         <Legend />
